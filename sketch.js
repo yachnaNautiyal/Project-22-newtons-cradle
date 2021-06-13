@@ -138,6 +138,6 @@ function draw() {
 //Write keyPressed function and apply force on pressing up_arrow key on the first bob.
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(bob1,{x:0,y:0},{x:-0.6,y:-0.6})
+		Matter.Body.applyForce(bob1,{x:0,y:0},{x:-60,y:-60})
 	}
 }
